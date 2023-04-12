@@ -47,8 +47,6 @@ main section#icons {
 }
 main section#icons img {
     width: 60px;
-}
-main section#icons a {
     margin-inline: 10px;
 }
 main {
@@ -57,38 +55,4 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #172155;
-}
-main div {
-    margin-inline: 50px;
-}
-main div:first-child {
-    text-align: right;
-}
-main div:first-child h1 {
-    font-size: 50px;
-    color: white;
-}
-main div:first-child h2, p {
-    font-family: monospace;
-    color: white;
-}
-main div:first-child h2 {
-    font-size: 40px;
-}
-main div:first-child h2:last-child {
-    font-size: 35px;
-}
-main div:first-child p {
-    font-size: 33px;
-}
-main div:last-child img {
-    width: 400px;
-}
-main div img, p, h1, h2 {
-    position: relative;
-    animation: fadein 1s ease-in;
-}
-@keyframes fadein {
-    from {bottom: 65px; opacity: 0;}
-    to {bottom: 0px; opacity: 1;}
 }
