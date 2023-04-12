@@ -19,6 +19,7 @@ div#main div.flex img {
     margin-block: 10%;
 }
 div#main section div.flex h1 {
+    text-align: center;
     font-size: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -43,6 +44,6 @@ div.container {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin-block: 6.5%;
+    margin-block: 7.2%;
     text-align: center;
 }
