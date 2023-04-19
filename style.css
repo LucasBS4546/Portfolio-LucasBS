@@ -172,30 +172,30 @@ div#main2 hr {
 
 
 
-div#main3 {
+div#main4 {
     margin-top: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-div#main3 section#mainsection {
+div#main4 section#mainsection {
     border: 1px solid white;
     border-radius: 60px;
     width: 100%;
     padding: 4%;
     background-color: #1f2d72;
 }
-div#main3 .flex {
+div#main4 .flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 }
-div#main3 img {
+div#main4 img {
     width: 100px;
     margin-block: 20%;
 }
-div#main3 .flexcolumn {
+div#main4 .flexcolumn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,25 +205,42 @@ div#main3 .flexcolumn {
     color: white;
     text-align: left;
 }
-div#main3 div.container {
+div#main4 div.container {
     display: flex;
     align-items: center;
     flex-direction: row;
     width: 402px;
     height: 150px;
 }
-div#main3 div.container a:last-child {
-    margin-left: 10%;
+div#main4 div.container a:last-child {
+    margin-left: 3%;
     font-family: monospace;
 }
-div#main3 div.container p {
-    margin-left: 10%;
+div#main4 div.container p {
+    margin-left: 3%;
     font-family: monospace;
 }
-div#main3 h1 {
+div#main4 h1 {
     color: white;
     font-size: 60px;
 }
-div#main3 hr {
+div#main4 hr {
     margin-block: 5%;
+}
+
+
+
+div#main3 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#main3 section#mainsection {
+    border: 1px solid white;
+    border-radius: 60px;
+    width: 60%;
+    padding: 4%;
+    background-color: #1f2d72;
+    color: white;
 }
