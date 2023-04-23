@@ -195,6 +195,12 @@ div#main4 .flex {
     justify-content: space-around;
     width: 100%;
 }
+div#main4 .flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 div#main4 img {
     width: 100px;
     margin-block: 20%;
