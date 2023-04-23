@@ -175,6 +175,67 @@ div#main2 hr {
 }
 
 
+
+div#main3 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+div#main3 #mainsection {
+    width: 100%;
+    border: dashed 8px #22317c;
+    padding: 3vw;
+    border-radius: 100px;
+    background-color: #1a255f;
+}
+div#main3 h1 {
+    font-size: 8vh;
+    color: #dae0ff;
+}
+div#main3 hr {
+    margin-block: 5%;
+}
+div#main3 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#main3 .flexcolumn {
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+}
+div#main3 .flexcolumn:last-of-type {
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+    flex-direction: column;
+    text-align: right;
+}
+div#main3 ul {
+    list-style: none;
+}
+div#main3 .container {
+    margin-bottom: 3vh;
+}
+div#main3 h2 {
+    font-size: 4vh;
+    color: #dae0ff;
+}
+div#main3 li {
+    font-size: 3vh;
+    color:#c4cdff;
+}
+
+
+
+
+
+
+
     
 div#main4 {
     margin-top: 15%;
@@ -211,7 +272,7 @@ div#main4 .flexcolumn {
     justify-content: center;
     flex-direction: column;
     margin-inline: 1%;
-    font-size: 25px;
+    font-size: 1.5vw;
     color: white;
     text-align: left;
 }
@@ -219,8 +280,8 @@ div#main4 div.container {
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 402px;
-    height: 150px;
+    width: 22vw;
+    height: 15vh;
 }
 div#main4 div.container a:last-child {
     margin-left: 10%;
@@ -232,13 +293,28 @@ div#main4 div.container p {
 }
 div#main4 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 5vw;
 }
 div#main4 hr {
     margin-block: 5%;
 }
 
-@media screen and (max-width: 810px) {
+
+
+footer {
+    background-color:#031b43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2vh;
+}
+footer h1 {
+    color: white;
+    font-weight: 150;
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 710px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -246,23 +322,32 @@ div#main4 hr {
     nav {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
         background-color: #031b43;
         position: relative;
         width: 100vw;
         z-index:2;
+        padding-block: 1vh;
+    }
+    nav section:first-of-type :first-of-type{
+        margin-right: 3vw;
     }
     nav section:last-child ul {
         list-style: none;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     nav section:last-child li {
-        padding-block: 1vw;
         font-size: 2.5vh;
     }
+    nav section:first-child {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
     br {
         background-color:#1f2d72;
         color:#1f2d72
@@ -337,6 +422,8 @@ div#main4 hr {
         margin-block: 50%;
         background-color: lightblue;
         border: 3px solid white;
+        position: relative;
+        bottom: 1vh;
     }
     div#main2 section div.flex h1 {
         text-align: center;
@@ -400,6 +487,61 @@ div#main4 hr {
     
 
     
+    div#main3 {
+        margin-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    div#main3 #mainsection {
+        width: 100%;
+    }
+    div#main3 h1 {
+        font-size: 8vh;
+    }
+    div#main3 hr {
+        margin-block: 5%;
+    }
+    div#main3 .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    div#main3 .flexcolumn {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    div#main3 .flexcolumn:last-of-type {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    div#main3 ul {
+        list-style: none;
+    }
+    div#main3 .container {
+        margin-bottom: 3vh;
+    }
+    div#main3 h2 {
+        font-size: 4vh;
+        width: 100vw;
+        color: #dae0ff;
+    }
+    div#main3 li {
+        font-size: 3vh;
+        color:#c4cdff;
+    }
+    
+
+
+    
     div#main4 {
         margin-top: 15%;
         display: flex;
@@ -455,7 +597,11 @@ div#main4 hr {
     div#main4 hr {
         margin-block: 5%;
     }
-            
+    
+
+    footer h1 {
+        font-size: 3vw;
+    }
 }
 
 
