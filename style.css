@@ -52,6 +52,9 @@ nav section:last-child li {
 main {
     padding: 10%;
     background-color: #172155;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -144,7 +147,7 @@ div#main2 div.container {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin-block: 10%;
+    margin-block: 9%;
     text-align: center;
 }
 div#main2 section#mainsection {
@@ -182,9 +185,9 @@ div#main3 {
     align-items: center;
     justify-content: center;
     color: white;
+    width: 100vw;
 }
 div#main3 #mainsection {
-    width: 100%;
     border: dashed 8px #22317c;
     padding: 3vw;
     border-radius: 100px;
@@ -455,7 +458,8 @@ footer h1 {
         justify-content: center;
         flex-direction: column;
         position: relative;
-        margin-block: 15%;
+        margin-block: 16%;
+        bottom: 1.5vh;
         text-align: center;
     }
     div#main2 section#mainsection {
@@ -470,7 +474,7 @@ footer h1 {
         background-color: #1f2d72;
         border-radius: 30px;
         border: 1px solid;
-        width: 100vw;
+        width: 95vw;
         padding: 4%;
     }
     div#main2 {
@@ -495,7 +499,10 @@ footer h1 {
         color: white;
     }
     div#main3 #mainsection {
-        width: 100%;
+        border: dashed 8px #22317c;
+        border-radius: 40px;
+        background-color: #1a255f;
+        width: 95vw;
     }
     div#main3 h1 {
         font-size: 8vh;
@@ -531,7 +538,7 @@ footer h1 {
     }
     div#main3 h2 {
         font-size: 4vh;
-        width: 100vw;
+        width: 95vw;
         color: #dae0ff;
     }
     div#main3 li {
@@ -551,7 +558,7 @@ footer h1 {
     div#main4 section#mainsection {
         border: 1px solid white;
         border-radius: 30px;
-        width: 90vw;
+        width: 95vw;
         background-color: #1f2d72;
     }
     div#main4 .flex {
