@@ -589,6 +589,7 @@ footer h1 {
         align-items: center;
         justify-items: center;
         height: 10vh;
+        width: 100vw;
     }
     div#main4 div.container a:last-child {
         margin-left: 3%;
