@@ -237,43 +237,94 @@ div#main3 li {
 }
 
 
+div#main4 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+}
+div#main4 #mainsection {
+    border: dashed 8px #22317c;
+    padding: 3vw;
+    border-radius: 100px;
+    background-color: #1a255f;
+    width: 50vw;
+}
+div#main4 h1 {
+    font-size: 8vh;
+    color: #dae0ff;
+}
+div#main4 a {
+    color: #b8c2f3;
+    text-decoration: underline;
+}
+div#main4 a:hover {
+    color: #dae0ff;
+}
+div#main4 hr {
+    margin-block: 5%;
+}
+div#main4 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#main4 ul {
+    list-style: none;
+}
+div#main4 .container {
+    margin-bottom: 3vh;
+    text-align: center;
+}
+div#main4 h2 {
+    font-size: 4vh;
+    color: #dae0ff;
+}
+div#main4 li {
+    font-size: 3vh;
+    color:#c4cdff;
+}
+
+
 
 
 
 
 
     
-div#main4 {
+div#main5 {
     margin-top: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
 }
-div#main4 section#mainsection {
+div#main5 section#mainsection {
     border: 1px solid white;
     border-radius: 60px;
     width: 80vw;
     padding: 4%;
     background-color: #1f2d72;
 }
-div#main4 .flex {
+div#main5 .flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 }
-div#main4 .flex1 {
+div#main5 .flex1 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-div#main4 img {
+div#main5 img {
     width: 100px;
     margin-block: 20%;
 }
-div#main4 .flexcolumn {
+div#main5 .flexcolumn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,26 +334,26 @@ div#main4 .flexcolumn {
     color: white;
     text-align: left;
 }
-div#main4 div.container {
+div#main5 div.container {
     display: flex;
     align-items: center;
     flex-direction: row;
     width: 22vw;
     height: 15vh;
 }
-div#main4 div.container a:last-child {
+div#main5 div.container a:last-child {
     margin-left: 10%;
     font-family: monospace;
 }
-div#main4 div.container p {
+div#main5 div.container p {
     margin-left: 10%;
     font-family: monospace;
 }
-div#main4 h1 {
+div#main5 h1 {
     color: white;
     font-size: 5vw;
 }
-div#main4 hr {
+div#main5 hr {
     margin-block: 5%;
 }
 
@@ -347,7 +398,7 @@ footer h1 {
         justify-content: center;
     }
     nav section:last-child li {
-        font-size: 2.5vh;
+        font-size: 2.3vh;
     }
     nav section:first-child {
         display: flex;
@@ -552,98 +603,109 @@ footer h1 {
     
 
 
-    
     div#main4 {
         margin-top: 15%;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
     }
-    div#main4 section#mainsection {
+    div#main4 #mainsection {
+        border: dashed 8px #22317c;
+        border-radius: 40px;
+        background-color: #1a255f;
+        width: 95vw;
+    }
+    div#main4 h1 {
+        font-size: 8vh;
+    }
+    div#main4 hr {
+        margin-block: 5%;
+    }
+    div#main4 .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    div#main4 ul {
+        list-style: none;
+    }
+    div#main4 .container {
+        margin-bottom: 3vh;
+    }
+    div#main4 h2 {
+        font-size: 4vh;
+        width: 95vw;
+        color: #dae0ff;
+    }
+    div#main4 li {
+        font-size: 3vh;
+        color:#c4cdff;
+    }
+
+
+
+    
+    div#main5 {
+        margin-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div#main5 section#mainsection {
         border: 1px solid white;
         border-radius: 30px;
         width: 95vw;
         background-color: #1f2d72;
     }
-    div#main4 .flex {
+    div#main5 .flex {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
     }
-    div#main4 .flex1 {
+    div#main5 .flex1 {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    div#main4 img {
+    div#main5 img {
         width: 12vw;
     }
-    div#main4 .flexcolumn {
+    div#main5 .flexcolumn {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 4vw;
         color: white;
     }
-    div#main4 div.container {
+    div#main5 div.container {
         display: flex;
         align-items: center;
         justify-items: center;
         height: 10vh;
         width: 100vw;
     }
-    div#main4 div.container a:last-child {
+    div#main5 div.container a:last-child {
         margin-left: 3%;
         font-family: monospace;
     }
-    div#main4 div.container p {
+    div#main5 div.container p {
         margin-left: 3%;
         font-family: monospace;
     }
-    div#main4 h1 {
+    div#main5 h1 {
         color: white;
         font-size: 8vh;
     }
-    div#main4 hr {
+    div#main5 hr {
         margin-block: 5%;
     }
     
 
     footer h1 {
         font-size: 3vw;
-    }
-}
-
-
-
-@media screen and (max-width: 1100px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #031b43;
-        position: relative;
-        width: 100vw;
-        z-index:2;
-    }
-    nav section:last-child ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    nav section:last-child li {
-        padding-block: 1vw;
-        font-size: 3vh;
-    }
-    br {
-        background-color:#1f2d72;
-        color:#1f2d72
     }
 }
