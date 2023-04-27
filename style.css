@@ -7,6 +7,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    background-color: #172155
+}
 a {
     color:white;
     text-decoration: none;
@@ -318,7 +321,7 @@ footer h1 {
     font-size: 2vw;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 800px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -575,7 +578,7 @@ footer h1 {
         flex-direction: column;
     }
     div#main4 img {
-        width: 15vw;
+        width: 12vw;
     }
     div#main4 .flexcolumn {
         display: flex;
