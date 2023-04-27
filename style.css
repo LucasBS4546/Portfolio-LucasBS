@@ -116,50 +116,44 @@ div#main1 #mainsection {
 div#main2 div.flex img {
     width: 12vh;
     border-radius: 50%;
-    margin-block: 40%;
     background-color: lightblue;
     border: 3px solid white;
 }
 div#main2 section div.flex h1 {
     text-align: center;
-    font-size: 6vh;
+    font-size: 3.5vw;
 }
 div#main2 .container h2 {
-    font-size: 4vh;
+    font-size: 2vw;
 }
 div#main2 section div.flex h3 {
     color:lightblue;
-    font-size: 3vh;
+    font-size: 1.5vw;
 }
 div#main2 .flex {
     display: flex;
     align-items: center;
     justify-content: center;
-
+}
+div#main2 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 2vh;
 }
 div#main2 .flexcolumn {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
-    margin-inline: 1vw;
 }
 div#main2 div.container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
-    position: relative;
-    margin-block: 9%;
-    text-align: center;
-}
-div#main2 section#mainsection {
-    position: relative;
-    animation: fadein2 1s ease-in;
-}
-@keyframes fadein2 {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    text-align: left;
+    margin-left: 20px;
 }
 div#main2 section#mainsection {
     background-color: #1f2d72;
@@ -477,11 +471,9 @@ footer h1 {
     div#main2 div.flex img {
         width: 10vh;
         border-radius: 50%;
-        margin-block: 50%;
         background-color: lightblue;
         border: 3px solid white;
         position: relative;
-        bottom: 1vh;
     }
     div#main2 section div.flex h1 {
         text-align: center;
@@ -498,32 +490,19 @@ footer h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-    
     }
     div#main2 .flexcolumn {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: column;
-        margin-inline: 1vw;
     }
     div#main2 div.container {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: column;
-        position: relative;
-        margin-block: 16%;
-        bottom: 1.5vh;
-        text-align: center;
-    }
-    div#main2 section#mainsection {
-        position: relative;
-        animation: fadein2 1s ease-in;
-    }
-    @keyframes fadein2 {
-        from {opacity: 0;}
-        to {opacity: 1;}
+        text-align: left;
     }
     div#main2 section#mainsection {
         background-color: #1f2d72;
@@ -542,6 +521,12 @@ footer h1 {
     }
     div#main2 hr {
         margin-block: 5%;
+    }
+    div#main2 .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-block: 2vh;
     }
     
 
